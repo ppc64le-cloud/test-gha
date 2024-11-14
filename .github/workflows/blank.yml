@@ -35,7 +35,7 @@ jobs:
           title: "Update sample"
           body: "sample body"
           branch: update-lockfile-pr
-          base: ${{ github.head_ref }}
+          # base: ${{ github.head_ref }}
       # - run: |
       #     cd test-brew
       #     touch "file_$(date +%Y-%m-%d).txt"
